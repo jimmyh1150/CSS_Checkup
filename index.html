@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lil' Jimmy's Billiards</title>
+    <link rel="stylesheet" href="./main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#schedule">League Schedule</a>
+                <a href="#signup">League Signup</a>
+                <a href="#apa">APA Info</a>
+                <a href="#about">About Us</a>
+            </nav>
+        </div>
+        <div id="home">
+            <h1 id="name-center">Lil' Jimmy's Billiards</h1>
+        </div>
+        <div class="announcement">
+            <h3>It's that time again! <br> Have you signed up for the upcoming summer leagues yet? <br> Hurry, before spaces are filled up.</h3>
+            <br>
+        </div>
+        <div id="schedule">
+            <fieldset style="border: 2px solid black;">
+                <legend style="color: white; background-color: black;">Summer League Schedule</legend>
+                <br>
+                <table border="3">
+                    <tr style="color: white; background-color: black;">
+                        <th>Type</th>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Start Date</th>
+                        <th>Duration</th>
+                        <th>Fee</th>
+                    </tr>
+                    <tr>
+                        <td>9-ball Mixed Singles League</td>
+                        <td>Monday</td>
+                        <td>7:00pm</td>
+                        <td>09-13-2021</td>
+                        <td>12 weeks</td>
+                        <td>$20/person</td>
+                    </tr>
+                    <tr>
+                        <td>8-ball Mixed Singles League</td>
+                        <td>Wednesday</td>
+                        <td>7:00pm</td>
+                        <td>09-15-2021</td>
+                        <td>12 weeks</td>
+                        <td>$25/person</td>
+                    </tr>
+                    <tr>
+                        <td>8-ball Doubles/Mixed League</td>
+                        <td>Friday</td>
+                        <td>8:00pm</td>
+                        <td>09-17-2021</td>
+                        <td>12 weeks</td>
+                        <td>$50/team</td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+        <br>
+        <div id="signup">
+
+            <fieldset class="fieldset-main">
+                <legend style="color: white; background-color: black;">League Signup</legend>
+                <br>
+
+
+                <fieldset>
+                    <legend>Choose League/s</legend>
+                    <p>
+                        <input type="checkbox" name="9-ball" id="input-9-ball" value="9-ball">
+                        <label for="9-ball">9-ball Mixed Singles</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="8-ball-singles" id="input-8-ball-singles" value="8-ball-singles">
+                        <label for="8-ball-singles">8-ball Mixed Singles</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="8-ball-doubles" id="input-8-ball-doubles" value="8-ball-doubles">
+                        <label for="8-ball-doubles">8-ball Mixed Doubles</label>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Member Contact Info</legend>
+
+                    <p>
+                        <label for="membername">Member Name: 
+                            <input name="name"></label>
+                    </p>
+                    <p>
+                        <label for="tel">Telephone: 
+                            <input type="tel" name="tel"></label>
+                    </p>
+                    <p>
+                        <label for="email">Email Address: 
+                            <input type="email" name="email"></label>
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Member 2 Contact Info (teams only)</legend>
+                    <p>
+                        <label for="member2name">Member 2 Name: 
+                            <input type="text" name="name"></label>
+                    </p>
+                    <p>
+                        <label for="tel">Telephone: 
+                            <input type="tel" name="tel"></label>
+                    </p>
+                    <p>
+                        <label for="email">Email Address: 
+                            <input type="email" name="email"></label>
+                    </p>
+                    <p>
+                        <label for="teamname">Team Name:</label>
+                        <input type="text" name="teamname">
+                    </p>
+                </fieldset>
+                <br>
+
+                <button class="button1" type="submit">Join</button>
+
+            </fieldset>
+        </div>
+        <br>
+        <div id="apa">
+            <h2>Become a successful APA league member:</h2>
+            <br>
+            <ul>
+                <li>
+                    <a href="https://poolplayers.com/pool-rules/" target="_blank"><img src="./images/apa-logo.png" alt="apa logo" width: 100; height: 200;></a>
+                </li>
+                <br>
+                <li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/luL2pY2ouTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div id="about" style="background-color: black; color: white; text-align: center;">
+            <p>
+                &#169;2021 Lil' Jimmy's Billiards
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
